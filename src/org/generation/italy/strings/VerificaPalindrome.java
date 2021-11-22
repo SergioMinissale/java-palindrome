@@ -12,7 +12,6 @@ public class VerificaPalindrome {
 		String parola = scanner.nextLine();
 		String revParola = "";
 		
-		
 		//parola al contrario
 		for(int i = parola.length() - 1; i >= 0; i--) {
 			revParola = revParola + parola.charAt(i);	
@@ -26,9 +25,6 @@ public class VerificaPalindrome {
 				System.out.println("La parola non è palindroma: " + parola + " != " + revParola);
 			}
 		
-	
-
-	
 	scanner.close();
 
 }
